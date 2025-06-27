@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.example.android_dz_11.domain.model.ShoppingList
 
 @Composable
-fun ShoppinglistItem (
+fun ShoppingListsItem(
     list: ShoppingList,
     onListClick: (Int) -> Unit,
     onEditListClick:(Int) -> Unit
@@ -38,7 +38,7 @@ fun ShoppinglistItem (
                     modifier = Modifier.weight(1f)
                 )
                 // кнопка редактирования
-                IconButton(onClick = {onEditListClick(1)}) {
+                IconButton(onClick = {onEditListClick(list.id)}) {
                     Icon(
                         Icons.Default.Edit,
                         contentDescription = "Редактировать список",

@@ -1,4 +1,4 @@
-package com.example.android_dz_11.presentation.screens.products
+package com.example.android_dz_11.ui.screens.products
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

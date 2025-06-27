@@ -1,4 +1,4 @@
-package com.example.android_dz_11.presentation.screens.lists
+package com.example.android_dz_11.ui.screens.lists
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

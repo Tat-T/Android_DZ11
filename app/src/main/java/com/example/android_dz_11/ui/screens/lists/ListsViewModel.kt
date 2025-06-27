@@ -1,8 +1,8 @@
-package com.example.android_dz_11.presentation.screens.lists
+package com.example.android_dz_11.ui.screens.lists
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.android_dz_11.data.repository.ShoppingListRepository
+import com.example.android_dz_11.domain.repository.ShoppingListRepository
 import com.example.android_dz_11.domain.model.ShoppingList
 import dagger.hilt.android.lifecycle.HiltViewModel
 import jakarta.inject.Inject
