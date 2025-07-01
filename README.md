@@ -27,3 +27,6 @@
 - списков (`Lists`),
 - продуктов (`Product`),
 - типов (`Type`).
+
+<img src="image/Screenshot_5.jpg" width="250">
+<img src="image/Screenshot_6.jpg" width="250">
